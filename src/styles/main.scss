@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Benguiat";
+  src: url("../../fonts/Benguiat Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "StrangerOutlined";
+  src: url("../../fonts/Stranger Things Outlined.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background-color: #000;
+}
+
+h1 {
+  font-family: "StrangerOutlined", "Benguiat", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 2rem;
+  color: red;
+}
